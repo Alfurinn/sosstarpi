@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zipcodes",
+  "info": {
+    "name": "Zipcode"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    }
+  }
+}
